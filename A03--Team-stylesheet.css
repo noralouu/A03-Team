@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    width:100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+span {
+    color:#FFE169;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #112D4E;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    color: #F9F7F7;
+    float: left;
+    line-height: 25px;
+    margin-left: 25px;
+}
+
+
+.header-right {
+    float: right;
+    margin-right: 50px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: #F9F7F7;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:link {
+    text-decoration: none;
+}
+
+.header-right a:visited {
+    text-decoration: none;
+}
+
+.header-right a:hover {
+    background-color: #3F72AF;
+    text-decoration: underline;
+}
+
+.body {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f9f7f7;
+    text-align: center;
+    height: 500px;
+}
+
+.profile {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    color: #3f72af;
+}
+
+.contents {
+    float: left;
+    width: 25%;
+    margin: 0px;
+}
+
+.content-img {
+    position: relative;
+}
+
+.content-img img {
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    padding: 10px;
+    max-width: 72%;
+    height: auto;
+    margin-bottom: 35px;
+    -webkit-transform: rotate(15deg) scale(1.4);
+	transform: rotate(15deg) scale(1.4);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.content-img img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    opacity: 0.6;
+    filter: sepia(70%);
+    -webkit-transform: rotate(0) scale(1.2);
+	transform: rotate(0) scale(1.2);
+}
+
+.content h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #112d4e;
+}
+
+.description {
+    width: 80%;
+    display: inline-block;
+    font-size: 17px;
+    margin: 0;
+}
