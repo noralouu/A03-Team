@@ -194,6 +194,50 @@ header {
     margin: 0;
 }
 
+#contact {
+    background-color: #DBE2EF;
+    padding: 50px;
+}
+
+#contact .title {
+    text-align: center;
+}
+
+form {
+    padding: 20px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #F9F7F7;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+  
+input[type=submit] {
+    background-color: #3F72AF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.8;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+  
+input[type=submit]:hover {
+    opacity: 1;
+}
+
 footer{
     background-color: #3f72af;
     color: #dbe2ef;
